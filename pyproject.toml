@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tab-tools"
+version = "0.1.0"
+description = "Experiment with various DL and tree-based models for tabular data."
+authors = ["Gardar Johannesson <gardarj@me.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4.1.8"
+pandas = "^2.2.2"
+scikit-learn = "^1.4.2"
+seaborn = "^0.13.2"
+scipy = "^1.13.0"
+tqdm = "^4.66.4"
+torch = "^2.3.0"
+gpytorch = "^1.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
